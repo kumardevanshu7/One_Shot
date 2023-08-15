@@ -83,7 +83,7 @@ if(true or false){
 
 7.1 for     &      7.2 while
 
-Loops means repeat. That's it.
+Loops means Repeat. That's it.
 
 --> for
 ---> SYNTAX : for(start ; end ; change){
