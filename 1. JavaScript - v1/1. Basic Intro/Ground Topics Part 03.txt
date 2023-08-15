@@ -20,7 +20,7 @@ function writeanyname(){
 
 9. Params & Arguments
 
---> Arguments : real value jo hum dete hai function chalate waqt.
+--> Arguments : Real value jo hum dete hai function chalate waqt.
 --> Parameters : Variables jinmein value store hoti hai arguments wali.
 
 EXAMPLES:
