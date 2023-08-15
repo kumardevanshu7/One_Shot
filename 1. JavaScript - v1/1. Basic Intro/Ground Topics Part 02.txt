@@ -53,7 +53,7 @@ c
 --> else
 --> else-if
 
--> "jab bhi baat agar magar par aayegi, yaa phir baat aayegi aisa hua toh voh karo... waisa hua toh woh karo."
+-> "Jab bhi baat agar magar par aayegi, yaa phir baat aayegi aisa hua toh voh karo... waisa hua toh woh karo."
 
 SYNTAX: 
 
