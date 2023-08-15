@@ -1,0 +1,181 @@
+-------------------------------------------     (-) Minus Topics : Master The Basics (Part 01)    ----------------------------
+
+1. difference bet 'words' & 'keywords'
+
+"JavaScript has a Interpreter not a compiler"
+
+(Interpreter don't know this - don't have the meaning in JS)
+chacha - word 
+bhaiya - word 
+bhabhi - word 
+brother - word 
+mango - word 
+etc. 
+
+(Interpreter know this - have some meaning in JS) 
+for - keyword 
+if - keyword 
+else - keyword 
+while - keyword 
+var - keyword 
+let - keyword 
+etc.
+
+----------------------------------------------------------------------------------------------------------------------
+
+2. 'var' 'const' 'let'
+
+2.1 Variables & Constant
+
+--> Varibales - jiski value badle or Changeable
+----> Code mein koi bhi 'data store karne ke liye' jiska use hota hai usee kehte hai 'variable'.
+
+--> Constant - jiski value na badle or UnChangeable & also store the data like a variable
+--> let - store the data like a variable
+
+----------------------------------------------------------------------------------------------------------------------
+
+3. undefined & not-defined
+
+--> Undefined = jiska existance haipar pata nhi hai ki value kya hai.
+----> example : console.log(a);
+                let a = 29; // this will shows undefined
+
+--> Not-defined = jiska existance hi nhi hai.
+----> example : console.log(a); // this will shows not-defined
+
+----------------------------------------------------------------------------------------------------------------------
+
+4. Hoisting
+
+--> declare karne se pehle hi use karna & this possible only in JS.
+--> variable and functions are hoisted which means there declarartion is moved on the top of the code.
+
+for e.g.
+console.log(a);
+let a = 29;
+
+let a = 29; 
+// is converted into this:
+let a; // which declarartion
+a = 29; // which is initialization
+
+For E.g.:
+
+1. console.log(a);
+   let a = 29;
+
+// convert in
+
+2. let a;
+   console.log(a);
+   a = 29;
+
+----------------------------------------------------------------------------------------------------------------------
+
+5. Types in JS 
+
+---> 5.1 Primitive      &       ---> 5.2 References
+
+--> Aisi koi bhi value jisko copy karne par... real copy nhi hota, balki us main value ka Reference pass hojata hai, use hum Reference Value kehte hai...   &   jiska copy karne par real copy hojaye wo value Primitive Type hoti hai.
+
+
+5.1 Primitive = number, string, null, undefined, boolean
+
+EXAMPLES : 
+
+let a = 12;
+let b = a;
+
+a
+// output : 12
+b
+// output : 12
+b = b + 2
+// output : 14
+
+a
+// output : 12
+b
+// output : 14
+
+5.2 References = [] () {}
+
+EXAMPLES : 
+
+let c = [12, 13, 14]
+let d = c
+
+c
+// output : (3) [12, 13, 14]
+d
+// output : (3) [12, 13, 14]
+
+d.pop()
+// output : 14
+
+d
+// output : (2) [12, 13]
+c
+// output : (2) [12, 13] // now this is called Reference type
+
+----------------------------------------------------------------------------------------------------------------------
+
+6. Conditionals
+
+--> if
+--> else
+--> else-if
+
+-> "jab bhi baat agar magar par aayegi, yaa phir baat aayegi aisa hua toh voh karo... waisa hua toh woh karo."
+
+SYNTAX: 
+
+if(true or false){
+
+}
+
+
+if(true or false){
+
+} else {
+
+}
+
+
+if(true or false){
+
+}else if(true or false){
+
+}else{
+
+}
+
+----------------------------------------------------------------------------------------------------------------------
+
+7. Loops
+
+7.1 for     &      7.2 while
+
+Loops means repeat. That's it.
+
+--> for
+---> SYNTAX : for(start ; end ; change){
+
+              }
+
+--> while
+---> SYNTAX : 
+
+while(true){
+    // this is go infinite
+}
+
+// for stopping this USE Change
+while(i < 9){
+    // this is go infinite
+    i++;
+}
+
+----------------------------------------------------------------------------------------------------------------------
+
