@@ -5,7 +5,7 @@
 // basic meaning : ek se jaada bande ki baat ki to hoa array and ek bande ke baare mein saari baat ki to hua Object.
 // Object = ek bande ki details ko hold karna, in a keyvalue pair.
 
-Below the things that we need to know:
+Below the things that we need to know: ->
 
 1. Blank Object
 var a = {};
