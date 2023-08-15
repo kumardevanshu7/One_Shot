@@ -29,7 +29,6 @@ b
 5.2 References = [] () {}
 
 EXAMPLES : 
-
 let c = [12, 13, 14]
 let d = c
 
