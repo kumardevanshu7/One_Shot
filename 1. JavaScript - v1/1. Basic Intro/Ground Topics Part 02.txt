@@ -1,100 +1,108 @@
 -------------------------------------------     (-) Minus Topics : Master The Basics (Part 02)    ----------------------------
 
-8. Functions
+5. Types in JS 
 
-"Function ka matlab aap kuch code ko likh  kar koi  naam  de sakte  ho and baad  mein usey use kar sakte hoo with that name as many times"
-or
-"functions = code ko naam dena!"
+---> 5.1 Primitive      &       ---> 5.2 References
 
---> Functions ka use mainly '3 Kaam ke liye hote hai':
-----> 1. jab aapka code aap turant nhi chalana chahate, future mein chalana chahate hoo.
-----> 2. jab aapka code reuse karna chahate hoo.
-----> 3. jab app code chalana chahate ho har baar with different datas. (like: params & arguments)
+--> Aisi koi bhi value jisko copy karne par... real copy nhi hota, balki us main value ka Reference pass hojata hai, use hum Reference Value kehte hai...   &   jiska copy karne par real copy hojaye wo value Primitive Type hoti hai.
 
-SYNTAX:
-function writeanyname(){
-    
-}
 
-----------------------------------------------------------------------------------------------------------------------
+5.1 Primitive = number, string, null, undefined, boolean
 
-9. Params & Arguments
+EXAMPLES : 
 
---> Arguments : real value jo hum dete hai function chalate waqt.
---> Parameters : Variables jinmein value store hoti hai arguments wali.
+let a = 12;
+let b = a;
 
-EXAMPLES:
-
--> only one argument
-function printy(a){
-    console.log(a);
-}
-printy(12);
+a
 // output : 12
+b
+// output : 12
+b = b + 2
+// output : 14
 
--> many Arguments
-function printy(a,b,c,x){
-    console.log(a,b,c,d);
+a
+// output : 12
+b
+// output : 14
+
+5.2 References = [] () {}
+
+EXAMPLES : 
+
+let c = [12, 13, 14]
+let d = c
+
+c
+// output : (3) [12, 13, 14]
+d
+// output : (3) [12, 13, 14]
+
+d.pop()
+// output : 14
+
+d
+// output : (2) [12, 13]
+c
+// output : (2) [12, 13] // now this is called Reference type
+
+----------------------------------------------------------------------------------------------------------------------
+
+6. Conditionals
+
+--> if
+--> else
+--> else-if
+
+-> "jab bhi baat agar magar par aayegi, yaa phir baat aayegi aisa hua toh voh karo... waisa hua toh woh karo."
+
+SYNTAX: 
+
+if(true or false){
+
 }
-printy(09, 12, 29, 17);
-// output : 09 12 29 17
+
+
+if(true or false){
+
+} else {
+
+}
+
+
+if(true or false){
+
+}else if(true or false){
+
+}else{
+
+}
 
 ----------------------------------------------------------------------------------------------------------------------
 
-10. Arrays
+7. Loops
 
---> hum ek variable mein ek value store kar paate hai par jabh humein ek se jaada value store karni ho tab fir use hota hai array ka, matlab ki array aapko freedom deta hai ek se jaada value store karne ki.
+7.1 for     &      7.2 while
 
-// array = group of values
+Loops means repeat. That's it.
 
-let arr = [1,2,3,4,5];
+--> for
+---> SYNTAX : for(start ; end ; change){
 
-arr[0];
-// output : 1
-arr[2];
-// output : 3
-arr[3];
-// output : 4
-arr[4];
-// output : 5
+              }
 
-----------------------------------------------------------------------------------------------------------------------
+--> while
+---> SYNTAX : 
 
-11. push pop shift unshift
+while(true){
+    // this is go infinite
+}
 
-let arr = [1,2,3,4,5,6,7];
-
-push(values); // array mein extra member jodne ke liye use hota hai voh bhi 'last mein'
-// let arr = [1,2,3,4,5,6,7];
-// arr.push(8);
-// output : [1,2,3,4,5,6,7,8];
-
-pop(); // array se extra member hatane ke liye use hota hai voh bhi 'last se'
-// let arr = [1,2,3,4,5,6,7];
-// arr.pop();
-// output : [1,2,3,4,5,6];
-
-unshift(values) // array mein extra member jodne ke liye use hota hai voh bhi 'starting mein'
-// let arr = [1,2,3,4,5,6,7];
-// arr.unshift(10);
-// output : [10,1,2,3,4,5,6,7];
-
-shift(); // array se extra member hatane ke liye use hota hai voh bhi 'starting se'
-// let arr = [1,2,3,4,5,6,7];
-// arr.shift();
-// output : [2,3,4,5,6,7];
+// for stopping this USE Change
+while(i < 9){
+    // this is go infinite
+    i++;
+}
 
 ----------------------------------------------------------------------------------------------------------------------
 
-12. splice 
-
-push pop shift unshift --> ye methods starting mein ya last se values ko add ya remove karne mein kaam aate hai. but agar bich mein se nikalna ho toh hum use karte hai 'splice'.
-
-SYNTAX : splice(index,how many numbers);
-
-// let arr = [1,2,3,4,5,6,7];
-// we need to remove three...
-// arr.splice(2,1);
-// output : [1,2,4,5,6,7];
-
-----------------------------------------------------------------------------------------------------------------------

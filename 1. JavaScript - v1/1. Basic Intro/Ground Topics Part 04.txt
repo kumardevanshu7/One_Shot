@@ -1,0 +1,66 @@
+-------------------------------------------     (-) Minus Topics : Master The Basics (Part 04)    ----------------------------
+
+13. Objects 
+
+// basic meaning : ek se jaada bande ki baat ki to hoa array and ek bande ke baare mein saari baat ki to hua Object.
+// Object = ek bande ki details ko hold karna, in a keyvalue pair.
+
+Below the things that we need to know:
+
+1. Blank Object
+var a = {};
+
+2. Filled Object
+var a = {
+    age:29,
+    name: "Zainab",
+    email: "zanuloves7@gmail.com",
+    phone_no: 9876987612
+}
+
+now hame ek ghadi ki details save karni hai program mein -->
+var ghadi = {
+    brand:"Zain Cot",
+    price: "17K",
+    color: "pink",
+    type: "automatic",
+    digital:true
+}
+
+Abh access kaise karte hai...
+
+// ghadi.type;
+// output : 'automatic'
+
+----------------------------------------------------------------------------------------------------------------------
+
+14. Props (properties) vs Methods
+
+var ghadi = {
+    brand:"Zain Cot",
+    price: "17K",
+    color: "pink",
+    type: "automatic",
+    digital:true
+}
+
+-> brand, price, color, type, digital --> these are called Properties, kyunki inki values hai in key-pairs mein.
+-> jabh hum property ke saath value na likh ke function deden then its called method.
+for e.g. = analog: function(){}
+
+----------------------------------------------------------------------------------------------------------------------
+
+15. Updating object Props
+
+var ghadi = {
+    brand:"Zain Cot",
+    price: "17K",
+    color: "pink",
+    type: "automatic",
+    digital:true
+}
+
+how to change -->
+ghadi.brand = "Zanu LUYE"; // means we can change the value here.
+
+----------------------------------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 -------------------------------------------     (-) Minus Topics : Master The Basics (Part 01)    ----------------------------
 
-1. difference bet 'words' & 'keywords'
+1. Difference bet 'words' & 'keywords'
 
 "JavaScript has a Interpreter not a compiler"
 
