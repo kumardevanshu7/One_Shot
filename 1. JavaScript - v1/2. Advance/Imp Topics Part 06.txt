@@ -18,7 +18,7 @@ a.forEach(function(val){
 
 10. for-in loop
 
-//objects par loop karne ke liye hota hai for-in loop
+// Objects par loop karne ke liye hota hai for-in loop
 
 var obj = {
     name:"Zainab',
@@ -26,6 +26,8 @@ var obj = {
     city:"Sector-16"
 }
 
+
+//-------- for object name
 for(var key in obj){
     console.log(key);
 }
@@ -34,8 +36,8 @@ for(var key in obj){
 // age
 // city
 
-//-------- for values
 
+//-------- for values
 for(var key in obj){
     console.log(obj[key]);
 }
@@ -44,8 +46,8 @@ for(var key in obj){
 // 21
 // Sector-16
 
-//-------- for both - object + key
 
+//-------- for both - object + key
 for(var key in obj){
     console.log(key, obj[key]);
 }
