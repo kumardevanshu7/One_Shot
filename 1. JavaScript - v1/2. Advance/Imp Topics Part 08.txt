@@ -1,6 +1,6 @@
 -------------------------------------------     (--) Double Minus Topics : Advance (Part 08)    ----------------------------
 
-13. How arrays are made behind the scenes
+13. How arrays are made Behind The Scenes
 
 var a = [1, 2, 3, 4, 5];
 
