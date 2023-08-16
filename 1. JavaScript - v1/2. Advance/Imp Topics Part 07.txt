@@ -11,7 +11,7 @@ function abcd(a){
     a(); // a is a function that's why we call here a function
 }
 
-abcd(12); // ismein hum value na pass karke ek function ko pass kar rahe hai.
+abcd(12); // Ismein hum value na pass karke ek function ko pass kar rahe hai.
 // abcd(function(){console.log("Hello CHaavi");})
 
 ----------------------------------------------------------------------------------------------------------------------
