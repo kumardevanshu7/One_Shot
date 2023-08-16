@@ -14,6 +14,6 @@
 
 4. Heap Memory
 
---> jitne bhi variables ya data hum banate hai unhe kahin toh store karna padta hai, uske liye use hota hai Heap Memory. Ek calculation ko karte waqt bich ka jo intermediate data hai, voh kahin toh store hoga jiski jarorat hogi aage but voh final answer nhi hai.
+--> Jitne bhi variables ya data hum banate hai unhe kahin toh store karna padta hai, uske liye use hota hai Heap Memory. Ek calculation ko karte waqt bich ka jo intermediate data hai, voh kahin toh store hoga jiski jarorat hogi aage but voh final answer nhi hai.
 
 ----------------------------------------------------------------------------------------------------------------------
