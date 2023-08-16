@@ -1,6 +1,6 @@
 -------------------------------------------     (--) Double Minus Topics : Advance (Part 04)    ----------------------------
 
-6. how to copy reference values
+6. How to copy reference values
 
 // you can;t copy the array like this, this is called reference.
 var a = [1,2,3,4,5,6,7];
