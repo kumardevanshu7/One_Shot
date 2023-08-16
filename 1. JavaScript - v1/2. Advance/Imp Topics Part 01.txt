@@ -1,6 +1,6 @@
 -------------------------------------------     (--) Double Minus Topics : Advance (Part 01)    ----------------------------
 
-1. the difference between var, let, const.
+1. the Difference between var, let, const.
 
 JavaScript mainly version is 2 : 
 --> ES5 (Old One) = only 'var' keyowrd is there
