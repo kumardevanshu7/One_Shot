@@ -6,7 +6,7 @@
 // 'truthy and Falsy' values are different from 'true and false'.
 
 // Falsy Values : 0 false undefined NaN null document.all 
-// Truthy values : remaining all!
+// Truthy values : remaining All!
 
 ----------------------------------------------------------------------------------------------------------------------
 
