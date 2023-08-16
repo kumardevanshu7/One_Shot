@@ -1,0 +1,17 @@
+-------------------------------------------     (--) Double Minus Topics : Advance (Part 07)    ----------------------------
+
+12. First Class Function
+
+JS mein ek concept hai jiska matlab hota hai ki aap function ko ue kar sakte hoo as a value.
+
+// var a = function(){};
+
+function abcd(a){
+    // now calling the function here
+    a(); // a is a function that's why we call here a function
+}
+
+abcd(12); // ismein hum value na pass karke ek function ko pass kar rahe hai.
+// abcd(function(){console.log("Hello CHaavi");})
+
+----------------------------------------------------------------------------------------------------------------------

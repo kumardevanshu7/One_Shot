@@ -1,0 +1,25 @@
+-------------------------------------------     (--) Double Minus Topics : Advance (Part 05)    ----------------------------
+
+7. Truthy & Falsy
+
+--> JS mein kuch bhi likho wo mainly do prakar mein se kisi ek prakaar ko beloong karti hai.
+// 'truthy and Falsy' values are different from 'true and false'.
+
+// Falsy Values : 0 false undefined NaN null document.all 
+// Truthy values : remaining all!
+
+----------------------------------------------------------------------------------------------------------------------
+
+8. Switch // its not gonna use anywhere
+
+Example: -->
+
+switch(1){
+    case 1:
+        break;
+    case 2:
+        break;
+    default:
+}
+
+----------------------------------------------------------------------------------------------------------------------

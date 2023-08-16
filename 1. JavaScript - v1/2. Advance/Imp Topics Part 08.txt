@@ -1,0 +1,54 @@
+-------------------------------------------     (--) Double Minus Topics : Advance (Part 08)    ----------------------------
+
+13. How arrays are made behind the scenes
+
+var a = [1, 2, 3, 4, 5];
+
+// actually above arrray is not a array... it is a Object
+// typeof []
+// output : 'object'
+
+// behind the scenes
+var a = {
+    0:1,
+    1:2,
+    2:3,
+    3:4,
+    4:5
+}
+
+// that's why in JS we can initialize a array with negative index.
+
+// for example:
+a[-1] = 2;
+// output : [1, 2, 3, 4, -1: 2] 
+
+// ------------- if you want to check whetehr it is a array or object use this 'Aray.isArray()' ---------------
+
+// Array.isArray([])
+// output : true
+
+// Array.isArray({})
+// output : false
+
+----------------------------------------------------------------------------------------------------------------------
+
+14. Why we can make the negative indexes arrays in JS
+
+Simple answer : because this [] is not a array it is a Object.
+
+----------------------------------------------------------------------------------------------------------------------
+
+15. How to delete object props (property)
+
+var obj = {
+    name:"Zainab',
+    age:21
+}
+
+// simple -- use 'delete'
+
+// delete obj.age;
+// this will delete the age property
+
+----------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,16 @@
+-------------------------------------------     (--) Double Minus Topics : Advance (Part 03)    ----------------------------
+
+5. Execution Context & Lexical Environment
+
+--> Means, Execution Context matlab jabh bhi hum function chalaayenge, then function apna ek khudka ek Imaginary container banalega jismein uski teen cheeje hongi:
+1. variables
+2. functions inside that parent function
+3. lexical environment of that function
+
+// ye jo container hai Imaginary ise hi hum Execution Context kehte hai.
+
+// Lexical environment = matlab ye hai ki aap kin kin cheejon ko use kar sakte hai.
+// agar 10 12 function ek ke ek ke ander bane hai toh sabse ander wala function sabse bahar wale value ko bhi access ar sakta hai. that is called lexical scoped chain.
+// "main apne parent ki values access kar sakta hai bu main apne children ki values access nhi kar paonga."
+
+----------------------------------------------------------------------------------------------------------------------

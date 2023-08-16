@@ -1,0 +1,74 @@
+-------------------------------------------     (--) Double Minus Topics : Advance (Part 06)    ----------------------------
+
+9. for-each loop
+
+--> ye sirf array pe chalta hai. matlab jabh bhi tumhare pass ek array ho, tab use mein kaun aata hai for-each loop.
+EXAMPLE : 
+
+// hamesha 'E' capital hoga because hum camelCase use karte hai and uske ander 'function' hoga ya 'Anonymous function' ya 'function with arrow' joki arrow se represent hota hai.
+
+var a = [1,2,3,4,5,6,7];
+a.forEach(function(val){
+    console.log(val+2);
+});
+
+// foreach kabhi bhi by default aapke array mein change nhi karta wo aapko changes karke deta hai array ki temporary copy par jiski wajah se array humesha same rehta hai.
+
+----------------------------------------------------------------------------------------------------------------------
+
+10. for-in loop
+
+//objects par loop karne ke liye hota hai for-in loop
+
+var obj = {
+    name:"Zainab',
+    age:21,
+    city:"Sector-16"
+}
+
+for(var key in obj){
+    console.log(key);
+}
+
+// name
+// age
+// city
+
+//-------- for values
+
+for(var key in obj){
+    console.log(obj[key]);
+}
+
+// Zainab
+// 21
+// Sector-16
+
+//-------- for both - object + key
+
+for(var key in obj){
+    console.log(key, obj[key]);
+}
+
+// name Zainab
+// age 21
+// City Sector-16
+
+----------------------------------------------------------------------------------------------------------------------
+
+11. Callback functions
+
+--> means jabh bhi koi aisa code jo baad me chalta hai aap likhoge, kyunki wo code baad mein chalta hai, JS ko ye pata nhi hota ki wo complete hoa ya nhi, aise code ke completion par JS ko bataya jaata hai ki wo complete hogayaya aur aap use chala sakte ho, ye batanae ka kaam 'Call-back' ka hai.
+jabh hame pata na hoo ki voh kaam kabh hoga aur kitna time lagega.
+
+setTimeout(function(){
+    console.log("Happy Birthday Chhavi");
+}, 2000); 
+
+// above code will run after 2secs of execution
+
+// 2000 means 2sec --> 2sec = 2000 miliseconds --> 1sec mein 1000 miliseconds hote hai
+
+// matlab hai ki aisa code jo baad me chalta hai use hum e function dedete hai ki bhaiya jabh complete hojaana to ye function chala dena, aur wo function jo hum dete hai wo ek NORMAL FUNCTION hi hota aur use kehte hai 'Callback Function'.
+
+----------------------------------------------------------------------------------------------------------------------

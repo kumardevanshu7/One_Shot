@@ -1,0 +1,22 @@
+-------------------------------------------     (--) Double Minus Topics : Advance (Part 04)    ----------------------------
+
+6. how to copy reference values
+
+// you can;t copy the array like this, this is called reference.
+var a = [1,2,3,4,5,6,7];
+var b = a;
+
+// how to copy this ---> Use 'Spread Operator' (...)
+var a = [1,2,3,4,5,6,7];
+var b = [...a];
+
+// this will copy the array.
+
+// -------------------- NOW CAN WE COPY THE OBJECT LIKE THIS ---------------------------- ANSWER IS "YES" ----------------------
+
+// just use this same as array
+
+let a = {name:"zanu", age:12, lover:"DEV"};
+let b = {...a}; // this will copy the object
+
+----------------------------------------------------------------------------------------------------------------------
