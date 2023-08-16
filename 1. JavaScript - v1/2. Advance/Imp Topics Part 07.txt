@@ -2,7 +2,7 @@
 
 12. First Class Function
 
-JS mein ek concept hai jiska matlab hota hai ki aap function ko ue kar sakte hoo as a value.
+JS mein ek Concept hai jiska matlab hota hai ki aap function ko ue kar sakte hoo as a value.
 
 // var a = function(){};
 
