@@ -7,7 +7,7 @@
 2. functions inside that parent function
 3. lexical environment of that function
 
-// ye jo container hai Imaginary ise hi hum Execution Context kehte hai.
+// Ye jo container hai Imaginary ise hi hum Execution Context kehte hai.
 
 // Lexical environment = matlab ye hai ki aap kin kin cheejon ko use kar sakte hai.
 // agar 10 12 function ek ke ek ke ander bane hai toh sabse ander wala function sabse bahar wale value ko bhi access ar sakta hai. that is called lexical scoped chain.
